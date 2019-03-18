@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Filling form
+        </title>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <div id="form1">
+            <form action="http://localhost/php/scratchcoder/index.php" name="Add_Course" onsubmit="course_valid()" method="POST">
+                <div class="left">
+                    <label for course_name>Add New Course:</label>
+                    <input type="text" name="course_name" placeholder="Add Course name">
+                </div>
+                
+                <div id="s_name">
+                <input type="number" min="5" max="10" onmousedown="prev()" onkeydown="prev()" onmouseup="current()" onkeyup="current()" id="noos" name="num_of_subjects" placeholder="Add No. of subjects">
+                    <p id="para">
+                        <input type="text" id="s1" name="subject_name1" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s2" name="subject_name2" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s3" name="subject_name3" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s4" name="subject_name4" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s5" name="subject_name5" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s6" name="subject_name6" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s7" name="subject_name7" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s8" name="subject_name8" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s9" name="subject_name9" placeholder="Add Subject name" disabled="true">
+                        <input type="text" id="s10" name="subject_name10" placeholder="Add Subject name" disabled="true">
+                    </p>
+                </div>
+                <button class="btn" name="submit" type="submit" value="submit">Add New Course</button>
+            </form>
+        </div>
+        <div id="form2">
+            <form action="http://localhost/php/scratchcoder/avl_crs.php" name="Available_Courses" onsubmit="" method="POST">
+                <a href="enroll.html"><button name="submit2" class="right" type="submit" value="submit">Go to available courses</button></a>
+            </form>
+            <form action="http://localhost/php/scratchcoder/enroll.php" name="Enroll_Course" onsubmit="" method="POST">
+                <button name="submit3" class="right" type="submit" value="submit">Enroll in a course</button>
+            </form>
+            <form action="http://localhost/php/scratchcoder/marks_courses.php" name="Marks_Details" onsubmit="" method="POST">
+                <button name="submit4" class="right" type="submit" value="submit">Watch marks details</button>
+            </form>
+        </div>
+        
+        <script type="text/javascript" src="script1.js"></script>
+        </body>
+</html>
