@@ -3,16 +3,16 @@
 ##This is a website with simple frontend with HTML,CSS,JavaScript. The backend is provided with PHP with database MySQL.
 
 
-![alt text](Screenshot (97).png "This is the main page")
+![alt text](main.png "This is the main page")
 
-![alt text](Screenshot (98).png "This is the available courses page")
+![alt text](a_c.png "This is the available courses page")
 
-![alt text](Screenshot (99).png "This is the student details page")
+![alt text](s_details.png "This is the student details page")
 
-![alt text](Screenshot (100).png "This is the marks entry page")
+![alt text](marks_e.png "This is the marks entry page")
 
-![alt text](Screenshot (101).png "This is the marks entry page")
+![alt text](marks_e1.png "This is the marks entry page")
 
-![alt text](Screenshot (102).png "This is the enrollment page")
+![alt text](enroll.png "This is the enrollment page")
 
-![alt text](Screenshot (103).png "This is the show marks page")
+![alt text](show.png "This is the show marks page")
